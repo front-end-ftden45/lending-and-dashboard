@@ -1,0 +1,96 @@
+
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Header */
+header {
+
+}
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-info {
+    //float: right;
+
+}
+
+/* Split Section */
+.split-section {
+    display: flex;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    //padding: 20px;
+    background: #eadbdb;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+}
+
+/* Parts */
+#parts {
+    padding: 40px 0;
+}
+/* Image List */
+.image-list {
+    margin-top: 20px;
+}
+
+.image-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.image-list ul li {
+    width: 20%;
+    background: #ffffff;
+    height: 130px;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+}
+.image-list ul li:last-child {
+    margin-right: 0px;
+}
+.image-list ul li:hover {
+    height: 140px;
+    width: 15%;
+    margin:0 25px 0 12px;
+    //background: #eed26e;
+}
+.image-list ul li:last-child:hover {
+    margin-right: 12px;
+}
+
+.image-list ul li img {
+    width: 200px;
+    height: 200px;
+}
+
+.image-list ul li:hover {
+    transform: scale(1.2);
+}
